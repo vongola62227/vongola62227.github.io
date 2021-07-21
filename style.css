@@ -1,0 +1,222 @@
+@charset "UTF-8";
+* {
+  font-family: "Oswald", "微軟正黑體";
+  position: relative;
+}
+
+html, body {
+  overflow-x: hidden;
+  font-size: 16px;
+  background-color: #ececec;
+}
+
+nav.nav-top .container {
+  position: relative;
+}
+nav.nav-top .container .navbar-collapse {
+  position: absolute;
+  right: 0px;
+}
+nav.nav-top a {
+  color: #ececec;
+  trainsition: 0.5s;
+}
+nav.nav-top a:hover {
+  color: #3BA7BF;
+}
+
+header#section_home {
+  background-image: url(https://i.imgur.com/HmUjahF.jpg);
+  background-size: 1500px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+header#section_home .container {
+  width: 100%;
+  height: 700px;
+}
+header#section_home .container .box {
+  color: #ececec;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  transform: translateY(-50%);
+}
+header#section_home .container .box .box1 {
+  position: absolute;
+  top: -10%;
+  left: -15%;
+  trnasform: translateY(-50%);
+}
+header#section_home .container .box .box2 {
+  font-size: 100px;
+  font-weight: 900;
+}
+header#section_home .container .box .box3 {
+  text-align: center;
+  color: #63E4F2;
+  font-size: 40px;
+}
+
+section#section_about {
+  background-color: #333333;
+}
+section#section_about .row {
+  padding-top: 100px;
+  padding-bottom: 20px;
+}
+section#section_about .row .col-sm-12 {
+  color: #ececec;
+  font-size: 25px;
+}
+section#section_about .row .col-sm-12 .box4 {
+  font-size: 50px;
+  font-weight: 900;
+}
+
+section#section_main {
+  background-color: #333333;
+  color: #ececec;
+  padding-bottom: 50px;
+}
+section#section_main .main-top {
+  max-width: 450px;
+  font-size: 25px;
+  padding-top: 60px;
+}
+section#section_main .imgbox {
+  margin: 0 auto;
+  width: 100%;
+  overflow: hidden;
+}
+section#section_main .imgbox .imgbox_inner {
+  width: 100%;
+  padding-top: calc(100% * 3 / 4);
+  position: relative;
+}
+section#section_main .imgbox .imgbox_inner .image1 {
+  background-image: url(https://i.imgur.com/jl17lL1.png);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+section#section_main .main-about {
+  text-align: center;
+}
+section#section_main .main-about .image2 {
+  background-image: url(https://i.imgur.com/w55neta.png);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: 100%;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+section#section_main .main-about .pic {
+  padding-top: 100px;
+}
+section#section_main .main-about .rol {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #195973;
+  border: 10px solid #63E4F2;
+  padding-top: 15px;
+  padding-left: 5px;
+  font-size: 30px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+section#section_about2 {
+  background-color: #3E606F;
+}
+section#section_about2 .row {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  color: #ececec;
+}
+section#section_about2 .row .col-sm-12 {
+  color: #333333;
+  font-size: 25px;
+  color: #ececec;
+}
+section#section_about2 .row .col-sm-12 .box4 {
+  font-size: 50px;
+  font-weight: 900;
+}
+
+section#section_main2 {
+  background-color: #333333;
+  color: #ececec;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+section#section_main2 .row {
+  max-width: 800px;
+  width: 100%;
+  padding-bottom: 50px;
+  padding-top: 10px;
+  margin: 0 auto;
+  text-align: center;
+}
+section#section_main2 .imgbox {
+  margin: 0 auto;
+  width: 100%;
+  overflow: hidden;
+}
+section#section_main2 .imgbox .imgbox_inner {
+  width: 100%;
+  padding-top: calc(100% * 3 / 4);
+  position: relative;
+}
+section#section_main2 .image3 {
+  background-image: url(https://i.imgur.com/JhDfHnu.jpg);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: 100%;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+section#section_main2 .image4 {
+  background-image: url(https://i.imgur.com/gqZwDiW.jpg);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: 100%;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+section#section_main2 .row .main2-box {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  padding-top: 60px;
+}
+
+section#section_final {
+  color: #ececec;
+  font-size: 20px;
+  background-image: url(https://i.imgur.com/sAOJOjK.jpg);
+  background-size: 1500px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+section#section_final .row {
+  max-width: 500px;
+  margin: 0 auto;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
